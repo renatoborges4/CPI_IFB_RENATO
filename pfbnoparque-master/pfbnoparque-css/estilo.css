@@ -1,0 +1,59 @@
+/* tag comentario no CSS
+
+ seletor{propriedade:valor;} forma como o CSS coloca as propriedades */
+
+
+
+/* <style></style> não precisa de colocar o style pq estamos num arquivos CSS, utilizei o @import do google fonts*/ 
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
+
+/*w3schools.com/css/ 
+div é uma divisória uma "caixa" para colocar todos os elementos dentro dela.
+
+div{
+	Background-color: #CCC; cor de fundo da "caixa" um cinza
+	padding: 20px; Espaço entre a borda da "caixa" até os textos em pixels
+	margin: 30px; espaço entre os outros textos
+	border: 1 px solid red; criar uma linha de borda(border) de 1 pixel, um style solído e uma cor (color)
+
+}
+
+*/
+
+
+ *{margin: 0; padding: 0;}
+
+
+ body{background-color: rgb(255,255,255)};
+
+ img{ 	width: 100%;
+ 		height: 380px;
+ 	}
+ 	 /*width: 100%; width: significa largura da imagem, no caso ficará 100% da área 
+ 	 da tela e é ajustaável; */
+	 /* height: 380px : height significa a altura da iamgem, no caso ficará 380px; */
+
+
+ 	a{}
+
+ 	h1{
+ 		font-family: 'Kaushan Script', cursive;
+ 		font-size: 1.2rem;
+ 		color: #3F51B5;
+
+ 		/* modo simplificado de cima:
+ 		font: 3rem 'Kaushan Script', cursive; no caso se colocou o font-size no font-family 
+ 		*/
+ 	  }
+
+ 	p{
+
+ 		font-family: 'Roboto', sans-serif; /* pode ser que não tenha avenir como fonte,
+ 											 logo ele vai para outra como arial e assim por adiante.
+ 											 obs* usa o aspas para fontes compostas. mas o ideal é sempre usar */
+ 		font-size: 1,2rem;
+ 		color: #777;
+ 		text-align: justify;
+ 	}
+
